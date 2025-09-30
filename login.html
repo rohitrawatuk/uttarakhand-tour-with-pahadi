@@ -27,21 +27,45 @@
             .h-custom {
               height: calc(100% - 73px);
             }
-    
+             .logos img{
+              color: rgb(9, 9, 31);
+          border-radius: 10px;
+    background-color: transparent;
+    font-weight: 700;
+    box-shadow: 0 0 20px rgb(5, 4, 24);
+             }
+
+          .logos img:hover{
+            background-color: transparent;
+    font-weight: 700;
+    box-shadow: 0 0 50px rgb(5, 4, 24);
+          }
             @media (max-width: 450px) {
               .h-custom {
                 height: 100%;
               }
             }
+              @media (max-width: 980px){
+              .logos{
+               padding-top: 40px;
+                padding-bottom: 50px;
+                display: flex;
+                justify-content: center;
+
+
+              }
+      
+              }
+                       
           </style>
           <div class="container-fluid h-custom">
             <div class="row d-flex justify-content-center align-items-center h-100 ms-5">
-              <div class="col-md-9 col-lg-6 col-xl-6 my-lg-5 py-lg-5">
+              <div class="col-md-9 col-lg-6 col-xl-6 my-lg-5 py-lg-5 logos">
                 <img src="logo2.png" class="img-fluid" alt="Sample image">
               </div>
               <div class="col-md-8 col-lg-8 col-xl-5 offset-xl-0 my-lg-5 py-lg-5">
                 <form>
-                  <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+                  <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start signh">
                     <p class="lead fw-normal mb-0 me-3">Sign in with</p>
                     <button type="button" data-mdb-button-init="" data-mdb-ripple-init="" class="btn btn-primary btn-floating mx-1" data-mdb-button-initialized="true">
                       <i class="bi bi-google"></i>
