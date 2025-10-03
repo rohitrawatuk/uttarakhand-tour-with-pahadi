@@ -7,6 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    
     <link rel="stylesheet" type="text/css" href="ukt.css">
 
     <title>Registration</title>
@@ -15,7 +17,7 @@
 
     <body class="b1">
       
-      <section class="container">
+      <section class="container registration">
        <header>Registration Form</header>
        <form action="#" class="form">
          <div class="input-box">
@@ -63,7 +65,7 @@
            <input type="text" placeholder="Enter street address line 2" required />
            <div class="column">
              <div class="select-box">
-               <select>
+              <select class="selectpicker countrypicker" data-live-search="true" data-flag="true">
                  <option hidden>Country</option>
                  <option value="United States">United States</option>
                   <option value="Afghanistan">Afghanistan</option>
@@ -349,10 +351,14 @@
        </form>
      </section>
 
+     
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
