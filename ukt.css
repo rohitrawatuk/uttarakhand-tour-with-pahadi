@@ -7,14 +7,14 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background-color: #20015A;
+    background-color: #0052af;
     
   }  
-  .container {
+  .registration {
     position: relative;
     max-width: 700px;
     width: 95%;
-    background: #fff;
+    background: rgb(255, 255, 255);
     padding: 25px;
     border-radius: 8px;
     box-shadow: 0 0 15px rgb(0, 0, 0, 0.1);
@@ -109,7 +109,12 @@
   .form button:hover {
     background: rgb(88, 56, 250);
   }
-  @media screen and (max-width: 500px){
+  .navbars .nav-item{
+    font-size: 20px;
+   
+  }
+
+  @media screen and (max-width: 767px){
     .form .column {
       flex-wrap: wrap;
     }
@@ -117,6 +122,11 @@
     {
       row-gap: 15px;
     }
-  }
+   .carousel img
+    {
+      height: 300px;
+    }
+    }
   
-  
+
+
